@@ -54,7 +54,7 @@ const App = () => {
                     <button className='highlight' name='+' onClick={handleClick}>+</button>
                     <button name='0' onClick={handleClick}>0</button>
                     <button name='.' onClick={handleClick}>.</button>
-                    <button className='highlight' onClick={calculate} id="result">=</button>
+                    <button className='calculateStyle' onClick={calculate} id="result">=</button>
                  
                 </div>
 
